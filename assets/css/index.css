@@ -7,24 +7,26 @@
   --padding: 1.5rem;
 
   /*++++++++++++++++++*/
-  /* General color-theming: */
+  /* General color-theming */
   /*++++++++++++++++++*/
-  --color-text: #000;
+  --color-text-black: rgb(28, 28, 28);
   --color-text-white: white;
   --color-text-grey: #777;
   --color-line-grey: #222;
   --color-background: rgb(243, 243, 241);
-  --color-background-dark: black;
+  --color-background-dark: rgb(28, 28, 28);
+  --color-font-gray: lightgrey;
 
   /*++++++++++++++++++*/
-  /* Colors for dark information-template: */
+  /* Colors for dark information-template */
   /*++++++++++++++++++*/
   --color-text-info: white;
   --color-text-grey-info: #222;
+  --color-background-info: rgb(28, 28, 28);
 
-  --color-background-info: black;
   /*++++++++++++++++++*/
-
+  /* Fonts */
+  /*++++++++++++++++++*/
   --font-family-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol";
@@ -32,6 +34,9 @@
     Courier, monospace;
 }
 
+/*++++++++++++++++++*/
+/* General Stylings */
+/*++++++++++++++++++*/
 html {
   font-family: var(--font-family-sans);
   color: var(--color-text);
@@ -53,7 +58,6 @@ a {
   color: currentColor;
   text-decoration: none;
 }
-
 h1,
 h2,
 h3 {
@@ -61,7 +65,6 @@ h3 {
   font-weight: inherit;
   line-height: inherit;
 }
-
 .h1 {
   margin-top: 1rem;
   letter-spacing: -0.09rem;
@@ -69,11 +72,6 @@ h3 {
   font-weight: 800;
   max-width: 350px;
 }
-
-h2 {
-  margin-top: 2rem;
-}
-
 .text {
   line-height: 1.5em;
 }
@@ -129,6 +127,9 @@ h2 {
   font-weight: 600;
 }
 
+/*++++++++++++++++++*/
+/* Navigation */
+/*++++++++++++++++++*/
 .header {
   position: sticky;
   top: 0;
@@ -164,26 +165,23 @@ h2 {
   cursor: pointer;
 }
 
-.grid {
-  --columns: 12;
-  --gutter: 3rem;
-  display: grid;
-  grid-gap: var(--gutter);
-  grid-template-columns: 1fr;
-}
-.grid > .column {
-  margin-bottom: var(--gutter);
-}
-
-.autogrid {
-  --gutter: 3rem;
-  --min: 10rem;
-  display: grid;
-  grid-gap: var(--gutter);
-  grid-template-columns: repeat(auto-fit, minmax(var(--min), 1fr));
-  grid-auto-flow: dense;
+/*++++++++++++++++++*/
+/* Snippet-Resada */
+/*++++++++++++++++++*/
+.reseda {
+  margin-top: -3rem;
+  /* font-size: clamp(3rem, 8vw, 13rem); not good enough*/
+  font-size: 13rem;
+  font-weight: 800;
+  font-stretch: extra-expanded;
+  text-transform: uppercase;
+  letter-spacing: -0.1em;
+  margin-bottom: 3rem;
 }
 
+/*++++++++++++++++++*/
+/* Generals for Snippet-Article and Snippet-Pricing */
+/*++++++++++++++++++*/
 .flex-container {
   display: flex;
   align-items: flex-start;
@@ -252,7 +250,7 @@ h2 {
   margin-bottom: 3rem;
   display: inline-block;
   padding: 10px 20px;
-  color: var(--color-text);
+  color: var(--color-text-black);
   border: solid var(--color-line-grey) 2px;
   font-size: 16px;
   cursor: pointer;
@@ -264,49 +262,77 @@ h2 {
   background-color: var(--color-background-dark);
 }
 
-.social {
-  display: flex;
-  padding: 0 0.5rem;
-}
-.social a {
-  padding: 1rem 0.5rem;
-}
-
-.divider {
-  border: solid #222 1px;
-}
-
+/*++++++++++++++++++*/
+/* Footer  */
+/*++++++++++++++++++*/
 .footer {
   background-color: var(--color-background-dark);
   margin-top: 2rem;
-  padding: 2rem 1rem 0 1rem;
+  padding: 2rem 1rem 0 2.5rem;
   line-height: 1.5em;
 }
-
 .footer h2 {
+  font-weight: 900;
+  font-size: 0.8rem;
+  color: var(--color-text-white);
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
   font-weight: 800;
-  font-size: 1.2rem;
-  color: var(--color-text-grey);
 }
 .footer ul,
 .footer p {
-  color: var(--color-text-grey);
+  font-family: menlo;
+  font-size: small;
+  color: var(--color-font-gray);
 }
 .footer li,
 .footer a {
+  font-family: menlo;
   text-decoration: underline;
-}
-.footer p {
-  max-width: 15rem;
 }
 .footer a:hover {
   color: var(--color-text-white);
 }
-
+.footer p {
+  max-width: 35rem;
+}
+.footer input {
+  font-family: Menlo;
+  line-height: 1.8rem;
+  padding: 10px 20px;
+  width: 200px;
+  color: var(--color-text-black);
+  background-color: var(--color-background);
+  border: solid var(--color-font-gray) 2px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: left;
+  outline: none;
+}
+.footer button {
+  font-family: Menlo;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  margin: 2rem 0 2rem 1rem;
+  display: inline-block;
+  padding: 10px 20px;
+  color: var(--color-text-white);
+  background-color: var(--color-background-dark);
+  border: solid var(--color-font-gray) 2px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+.footer button:hover {
+  color: var(--color-text-black);
+  background-color: var(--color-background);
+}
 .footer-reseda {
   color: var(--color-text-white);
   background: var(--color-background-dark);
-  font-size: clamp(3rem, 8vw, 13rem);
+  /* font-size: clamp(3rem, 8vw, 13rem); not good enough*/
+  font-size: 13rem;
   font-weight: 800;
   font-stretch: extra-expanded;
   text-transform: uppercase;
@@ -317,37 +343,32 @@ h2 {
   line-height: 1;
 }
 
-.reseda {
-  margin-top: -3rem;
-  font-size: clamp(3rem, 8vw, 13rem);
-  font-weight: 800;
-  font-stretch: extra-expanded;
-  text-transform: uppercase;
-  letter-spacing: -0.1em;
-  margin-bottom: 3rem;
+/*++++++++++++++++++*/
+/*Grid*/
+/*++++++++++++++++++*/
+.grid {
+  --columns: 12;
+  --gutter: 3rem;
+  display: grid;
+  grid-gap: var(--gutter);
+  grid-template-columns: 1fr;
 }
-
-.margin-s {
-  margin-bottom: 0.75rem;
+.grid > .column {
+  margin-bottom: var(--gutter);
 }
-.margin-m {
-  margin-bottom: 1.5rem;
-}
-.margin-l {
-  margin-bottom: 3rem;
-}
-.margin-xl {
-  margin-bottom: 4.5rem;
-}
-.margin-xxl {
-  margin-bottom: 6rem;
+.autogrid {
+  --gutter: 3rem;
+  --min: 10rem;
+  display: grid;
+  grid-gap: var(--gutter);
+  grid-template-columns: repeat(auto-fit, minmax(var(--min), 1fr));
+  grid-auto-flow: dense;
 }
 
 @media screen and (min-width: 60rem) {
   body {
     --padding: 3rem;
   }
-
   .grid {
     grid-template-columns: repeat(12, 1fr);
   }

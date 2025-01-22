@@ -24,7 +24,7 @@
   <hr>
 
 
-<aside class="contact">
+<!-- <aside class="contact">
   <h2 class="h1">Get in contact</h2>
   <div class="grid" style="--gutter: 1.5rem">
     <section class="column text" style="--columns: 4">
@@ -46,7 +46,7 @@
       </ul>
     </section>
   </div>
-</aside>
+</aside> -->
 
 <?php snippet('footer') ?>
 
