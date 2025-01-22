@@ -1,0 +1,41 @@
+body.information html {
+  background-color: var(--color-background-info);
+}
+body.informationen {
+  background-color: var(--color-background-info);
+}
+
+body.informationen .header {
+  background-color: var(--color-background-info);
+  border-bottom: solid var(--color-text-grey-info) 1px;
+}
+
+body.informationen .menu a {
+  color: var(--color-text-info);
+}
+
+body.informationen .hometitle {
+  color: var(--color-text-info);
+}
+
+body.informationen h1,
+body.informationen h2 {
+  color: var(--color-text-info);
+}
+
+body.informationen h1 {
+  color: var(--color-text-info);
+}
+
+body.informationen .text {
+  color: var(--color-text-info);
+}
+
+body.informationen .article-subheadline {
+  color: var(--color-text-info);
+}
+
+body.informationen .flex-container {
+  border-bottom: solid var(--color-text-grey-info) 1px;
+  padding-bottom: 6rem;
+}

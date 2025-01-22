@@ -1,0 +1,12 @@
+title: Site
+
+sections:
+  pages:
+    type: pages
+  files: # Globale Dateien hinzufügen
+    type: files
+fields:
+  cover: # Neues Feld für ein globales Cover
+    label: Cover Image
+    type: files
+    max: 1

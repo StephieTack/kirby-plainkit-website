@@ -1,0 +1,5 @@
+Title: Home
+----
+Cover: two-people.png
+----
+Alt: the fotographers

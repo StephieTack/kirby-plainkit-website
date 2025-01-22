@@ -1,0 +1,47 @@
+Title: Services
+
+----
+
+Headline: Standard-Paket
+
+----
+
+Subheadline: Paket enthält:
+
+----
+
+Bullets: 30-minütige Session | Farbabstufung + Retusche | Eine private Online-Galerie mit mehr als 5 digitalen Bildern, die 2-3 Wochen nach der Session bereitgestellt werden | Ideal für Kundenbesuche, Online-Portfolios, professionelle Social-Media-Präsenz
+
+----
+
+Linktext: 180 EUR | Paket kaufen
+
+----
+
+Address: Mægazine Inc. <br>Sesamestreet 1 <br>Gotham City <br>USA
+
+----
+
+Email: mail@maegazine.com
+
+----
+
+Phone: +49 1234 5678
+
+----
+
+Social:
+
+- 
+  platform: YouTube
+  url: https://youtube.com/kirbycasts
+- 
+  platform: Instagram
+  url: https://instagram.com/getkirby
+- 
+  platform: Discord
+  url: https://chat.getkirby.com
+
+----
+
+Uuid: U5JtHTEymcQgqUtB

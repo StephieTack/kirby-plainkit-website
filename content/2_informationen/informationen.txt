@@ -1,0 +1,51 @@
+Title: Informationen
+
+----
+
+Text: 
+
+----
+
+Cover: - file://9oQko1Qrc7BzjnaB
+
+----
+
+Headline: Über Sofia
+
+----
+
+Subheadline:
+
+Sofia Parazi ist Fotografin, Art Director und Filmemacherin mit Sitz in Los Angeles. Sofia wuchs in Süditalien auf und hatte schon immer das Bedürfnis, so viel Zeit wie möglich im Freien zu verbringen. In ihren Fotos setzt sie viel natürliches Licht ein, das an ihre Kindheit erinnert, die sie in der Sonne verbracht hat
+
+Sofia hat ihren Sitz im kalifornischen Los Angeles. Bei geschäftlichen Anfragen kannst du dich gerne an sie wenden.
+
+----
+
+Address: Mægazine Inc. <br>Sesamestreet 1 <br>Gotham City <br>USA
+
+----
+
+Email: mail@maegazine.com
+
+----
+
+Phone: +49 1234 5678
+
+----
+
+Social:
+
+- 
+  platform: YouTube
+  url: https://youtube.com/kirbycasts
+- 
+  platform: Instagram
+  url: https://instagram.com/getkirby
+- 
+  platform: Discord
+  url: https://chat.getkirby.com
+
+----
+
+Uuid: dVa4PsoZ1DGNKXwx

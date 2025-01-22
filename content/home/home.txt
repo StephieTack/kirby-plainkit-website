@@ -1,0 +1,17 @@
+Title: Home
+
+----
+
+Headline: FOTOGRAFIE VON SOFIA PARAZI AUS L.A.
+
+----
+
+Subheadline: Sofia Parazi ist eine in LA ansässige Fotografin, Kamerafrau und Art Director. Ihr unverwechselbarer Stil zeichnet sich durch Gegenüberstellung von Licht und Schatten aus. Für Sofia sind Fotos Metaphern, die das Abstrakte konkretisieren und das Alltägliche mystifizieren.
+
+----
+
+Linktext: Über Sofia
+
+----
+
+Uuid: Fgh6luDfGSVzB31P
